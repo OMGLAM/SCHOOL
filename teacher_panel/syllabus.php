@@ -6,7 +6,7 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Upload Syllabus</h1>
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Upload Matieres</h1>
                 <button type="button" class="close mr-2" data-bs-dismiss="modal" aria-label="Close"><i
                         class='bx bx-x'></i></button>
             </div>
@@ -89,7 +89,7 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Upload Syllabus</h1>
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Upload Matieres</h1>
                 <button type="button" class="close mr-2" data-bs-dismiss="modal" aria-label="Close"><i
                         class='bx bx-x'></i></button>
             </div>
@@ -146,7 +146,7 @@
     <main>
         <div class="header">
             <div class="left">
-                <h1>Syllabus</h1>
+                <h1>Matieres</h1>
             </div>
         </div>
         <div class="bottom-data">
@@ -161,11 +161,11 @@
                             <br>
                             <div class="header">
                                 <i class='bx bx-receipt'></i>
-                                <h3>Syllabus </h3>
+                                <h3>Matieres </h3>
 
                                 <a class="upload-syllabus" id="openUploadDialog">
                                     <i class='bx bx-cloud-upload'></i>
-                                    <span>Upload Syllabus</span>
+                                    <span>Upload Matieres</span>
                                 </a>
                             </div>
 
@@ -180,19 +180,7 @@
                                         <select class="form-select" aria-label="Default select example" name=""
                                             id="selected-class">
                                            <!--  <option selected>12</option>
-                                            <option>11</option>
-                                            <option>10</option>
-                                            <option>9</option>
-                                            <option>8</option>
-                                            <option>7</option>
-                                            <option>6</option>
-                                            <option>5</option>
-                                            <option>4</option>
-                                            <option>3</option>
-                                            <option>2</option>
-                                            <option>1</option>
-                                            <option>pg</option>
-                                            <option>lkg</option>
+                                             
                                             <option>ukg</option> -->
                                             <?php include('partials/select_classes.php') ?>
                                         </select>
@@ -219,10 +207,16 @@
                                     <!--table-->
                                     <div class="syllabus-table">
                                         <table>
-                                            <tr>
-                                                <th scope="col" class="thead col-3">#</th>
-                                                <th scope="col" class="thead col-3">Subject</th>
-                                                <th scope="col" class="thead col-6">Syllabus</th>
+                                        <tr>
+                                                <th scope="col" class="thead col-1">#</th>
+                                                <th scope="col" class="thead col-1">EXAM</th>
+                                                <th scope="col" class="thead col-3">DATE-EXAM</th>
+                                                <th scope="col" class="thead col-1">SALLE</th>
+                                                <th scope="col" class="thead col-1">PROF</th>
+                                                <th scope="col" class="thead col-1">HEURE-EXAM</th>
+                                                <th scope="col" class="thead col-2">DESCRIPTION</th>
+                                                <th scope="col" class="thead col-1">DUREE</th>
+                                                <th scope="col" class="thead col-1">DETAILS</th>
                                             </tr>
 
                                             <tbody id="sllyabusTable">
