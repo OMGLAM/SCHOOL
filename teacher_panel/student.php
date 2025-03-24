@@ -577,9 +577,9 @@
                                     <div class="col-auto">
                                         <select class="form-select" aria-label="Default select example"
                                             id="search-section">
-                                            <option selected>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
+                                            <option value="all">ALL</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
                                         </select>
                                     </div>
                                 </div>
@@ -638,11 +638,15 @@
                                     <div class="students-table">
                                         <table class="remove-cursor-pointer">
                                             <thead>
-                                                <tr>
-                                                    <th scope="col" class="thead col-2">#</th>
-                                                    <th scope="col" class="thead col-2">Student ID</th>
-                                                    <th scope="col" class="thead col-5">Name</th>
-                                                    <th scope="col" class="thead col-3">Action</th>
+                                            <tr>
+                                                    <th scope="col" class="thead col-1">#</th>
+                                                    <th scope="col" class="thead col-1">Student ID</th>
+                                                    <th scope="col" class="thead col-2">Name</th>
+                                                    <th scope="col" class="thead col-2">Telephone</th>
+                                                    <th scope="col" class="thead col-1">Address</th>
+                                                    <th scope="col" class="thead col-2">Email</th>
+                                                    <th scope="col" class="thead col-1">Filiere</th>
+                                                    <th scope="col" class="thead col-2">Action</th>
                                                 </tr>
                                             </thead>
 
