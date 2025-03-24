@@ -13,6 +13,7 @@
     <title>Fee Recipt</title>
     <link rel="shortcut icon" href="./images/logo.png">
     <style type="text/css">
+
       .see-payment{
   height: auto;
   width: 80%;
@@ -74,7 +75,7 @@
         <h2>Title:  </h2>
         <h5>Teacher's Name : XYZ</h5>
         <h5>Amount: 5000</h5>
-        <p>Date of Payment: 22/oct/2012</p>
+        <p>Date of Payment: 22/oct/2025</p>
         <button id="paid">Paid Successfully</button>
       </div>
     </div>

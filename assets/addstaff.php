@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo 'Email already exists!';
     } else {
 
-    if ($nom !== "") {
+    if ($nom !== "" && $email != "") {
 
         // Use prepared statements for inserting teacher details
         $addTeacherDetailQuery = "INSERT INTO `staff` (`s_no`, `id`, `nom`, `departement`, `numero`,`email`) VALUES (NULL,?, ?, ?, ?, ?)";

@@ -69,7 +69,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $adress=$row['address'];
                 $email=$row['email'];
                 $image = '../studentUploads/' . $row['image'];
-                $image = file_exists($image) ? $image : "../images/user.png";
+                $image = file_exists($image) ? $image : "../images/w.jpg";
 
                 $resultOutput[] = "<tr>
                     <td>&nbsp;&nbsp;{$count}.&nbsp;&nbsp;</td>

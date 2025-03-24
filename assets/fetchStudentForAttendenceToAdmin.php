@@ -16,6 +16,14 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $currentMonth = date('m') . "";
     $currentYear = date('Y') . "";
 
+    // if ($class == "all" && $section == "all") {
+    //     // Select all attendance records    
+    //     $query = "SELECT * FROM `attendence`";
+    //     $stmt = mysqli_prepare($conn, $query);
+    //     mysqli_stmt_execute($stmt);
+    //     $result = mysqli_stmt_get_result($stmt); // Retrieve the result
+    // } 
+
     $query = "SELECT * FROM `attendence` WHERE (`class`=? AND `section`=?) AND (Day(`date`)=? AND Month(`date`)=? AND Year(`date`)=?)";
     $stmt = mysqli_prepare($conn, $query);
     mysqli_stmt_bind_param($stmt, "sssss", $class, $section, $currentDay, $currentMonth, $currentYear);

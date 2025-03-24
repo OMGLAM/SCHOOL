@@ -49,7 +49,7 @@
 
 .logo img {
     width: 100px; /* Augmente la taille de l'image */
-    height: auto;
+    height: 100px;
      
 }
 
@@ -186,9 +186,11 @@
 
 <body>
     <header>
-        <div class="logo" title="University Management System" width="43px" height="40px">
-            <img src="../images/aaa.jfif" alt="">
+        
+        <div class="logo" title="University Management System"  >
+        <img src="../images/aaa.jfif" alt="" >
             <h2>I<span class="danger">SG</span>I</h2>
+            
         </div>
             
    
