@@ -48,6 +48,12 @@ if (isset($_SESSION['uid'])) {
   <link rel="stylesheet" href="login-form-style.css">
   <link rel="icon" type="image/x-icon" href="images/aaa.jfif">
 </head>
+<style>
+  #vv{
+
+margin-bottom: 250px;
+}
+</style>
 
 <body>
   
@@ -55,10 +61,10 @@ if (isset($_SESSION['uid'])) {
     <input type="checkbox" id="flip">
     <div class="cover">
       <div class="front">
-        <img src="images/loginimage.jpg" alt="">
+        <img src="images/dd.jpg" alt="">
         <div class="text">
-          <span class="text-1">SCHOOL MANAGEMENT SYSTEM<br></span>
-          <span class="text-2">Plan serve program</span>
+          <!-- <span  id ="vv" class="text-1">SCHOOL MANAGEMENT SYSTEM<br></span> -->
+           
         </div>
       </div>
 
@@ -66,8 +72,10 @@ if (isset($_SESSION['uid'])) {
     <div class="forms">
       <div class="form-content">
         <div class="login-form">
-
-          <div class="title" id='board-title'>Login</div>
+<center>
+<div class="title" id='board-title'>Se Connecter</div> 
+</center>
+         
 
           <div class="alert-box">
             <div class="alert alert-danger text-center mt-3" role="alert" id="error-msg">

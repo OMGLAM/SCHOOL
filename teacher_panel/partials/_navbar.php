@@ -27,9 +27,9 @@
                 </ul>
               </div> -->
 
-            <a href="settings.php" class="profile" id="navbar_profile_pic">
+            <a href="settings.php"  class="profile" id="navbar_profile_pic">
                 
-                <img src="../images/user.png" >
+                <img src="../images/oka.jpg" >
                
             </a>
 
