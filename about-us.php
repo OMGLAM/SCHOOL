@@ -21,7 +21,12 @@
                         About us</h3>
                         <p class="card-text fs-5 text-justify">
                             
-                        l'institut specialité de gestion et d'informatique , Embark on your coding journey with courage and curiosity. Every line of code you write is a step toward creating something extraordinary. Embrace the challenges, for they will become the milestones of your progress. Remember, every expert was once a beginner. Keep learning, stay persistent, and let your passion guide you. Your potential is limitless.
+                        L'ISGI (Institut Supérieur de Gestion et Informatique) à Marrakech est une école privée qui offre des formations en gestion, informatique et domaines associés. Elle est reconnue pour la qualité de son enseignement et prépare les étudiants aux défis du marché du travail à travers des programmes adaptés aux évolutions des secteurs économiques et technologiques.
+
+            
+                         L'institution met un accent particulier sur l'intégration de l'informatique et des technologies dans les pratiques de gestion modernes, ce qui attire de nombreux étudiants intéressés par les métiers du numérique.
+
+Les installations de l'ISGI sont modernes, avec des salles de classe bien équipées et un environnement propice à l'apprentissage. L'école offre aussi des opportunités de stages et de partenariats avec des entreprises, ce qui permet aux étudiants de développer des compétences pratiques en plus de la théorie.
                     </div>
                     <div class="mb-4" style="width: 100%;  display: flex; align-items: center; justify-content: center;">
                     <img style="width: 400px;"  src="./images/aaa.jfif" class="card-img-bottom" alt="...">

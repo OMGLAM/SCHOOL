@@ -47,12 +47,32 @@ if (isset($_SESSION['uid'])) {
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="login-form-style.css">
   <link rel="icon" type="image/x-icon" href="images/aaa.jfif">
-</head>
-<style>
-  #vv{
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-margin-bottom: 250px;
+</head>
+ <style>    
+ input {
+  border-radius: 5px;
 }
+
+            
+        .input-boxes {
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+        }
+
+        #board-title{
+          font-weight:500;
+          font-size:30px;
+        }
+
+ 
+img{
+  border-radius:1rem;
+}
+ 
+
 </style>
 
 <body>
@@ -61,8 +81,8 @@ margin-bottom: 250px;
     <input type="checkbox" id="flip">
     <div class="cover">
       <div class="front">
-        <img src="images/dd.jpg" alt="">
-        <div class="text">
+      <img src="images/dd.jpg" alt="" >
+      <div class="text">
           <!-- <span  id ="vv" class="text-1">SCHOOL MANAGEMENT SYSTEM<br></span> -->
            
         </div>
@@ -72,11 +92,13 @@ margin-bottom: 250px;
     <div class="forms">
       <div class="form-content">
         <div class="login-form">
-<center>
+
+        <img src="images/aaa.jfif" alt="" style="width: 100px; height: auto; display: block; margin: 0 auto;">
+        <center>
 <div class="title" id='board-title'>Se Connecter</div> 
 </center>
          
-
+<hr>
           <div class="alert-box">
             <div class="alert alert-danger text-center mt-3" role="alert" id="error-msg">
 
@@ -86,15 +108,18 @@ margin-bottom: 250px;
           <form action="index.php" id="login-form" method="post">
             <div class="input-boxes">
               <div class="input-box">
-                <i class="fas fa-envelope"></i>
+                <i class="fas fa-envelope" style="margin-left:5px";></i>
                 <input type="email" name="email" placeholder="Enter your email" id='loginEmail' required>
               </div>
               <div class="input-box">
-                <i class="fas fa-lock"></i>
+                <i class="fas fa-lock" style="margin-left:5px";></i>
                 <input type="password" name="password" placeholder="Enter your password" id="password" required>
                 <i class="bi bi-eye-fill" style="margin-left:auto;margin-right: 6px;" id="togglePassword"></i>
               </div>
+              <hr>
+              <center>
               <div class="text"><a id="forgotpassword">Forgot password?</a></div>
+</center>
               <div class="button input-box">
                 <button type="submit" class="btn">
                   Submit
