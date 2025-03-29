@@ -31,13 +31,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $query = "SELECT * FROM staff 
             WHERE (nom LIKE ?) 
               OR (email LIKE ?) 
-            --    OR (numero LIKE ?) 
-                --  OR (departement LIKE ?) 
+               OR (numero LIKE ?) 
+                 OR (departement LIKE ?) 
             ORDER BY nom ASC;";
 
             $stmt = mysqli_prepare($conn, $query);
             $param = '%' . $name . '%';
-            mysqli_stmt_bind_param($stmt, "ss", $param, $param);
+            mysqli_stmt_bind_param($stmt, "ssss",$param,$param, $param, $param);
         }
     }
 
